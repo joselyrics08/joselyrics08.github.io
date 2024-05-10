@@ -1,0 +1,12 @@
+#menu-toggle:checked + #menu {
+    display: block;
+}
+
+.top-menu {
+    display: flex;
+}
+
+.custom-logo-link>img {
+    max-height: 24px;
+    width: auto;
+}

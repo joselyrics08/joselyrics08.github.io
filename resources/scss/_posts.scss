@@ -1,0 +1,21 @@
+@screen md {
+    .post-container {
+        @apply overflow-hidden rounded-lg shadow-lg
+    }
+}
+
+.post-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 15px;
+
+    &__link {
+        @apply btn btn-earnify;
+    }
+}
+
+
+.entry-content>p {
+    margin-bottom: 1em;
+}

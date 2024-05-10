@@ -1,0 +1,16 @@
+@import "tailwind";
+@import "buttons";
+@import "embed";
+@import "nav";
+@import "posts";
+@import "embed";
+@import "ads";
+
+.widget {
+    margin-bottom: 1em;
+
+    .widget-title {
+        font-size: 1.1em;
+        font-weight: bold; 
+    }
+} 

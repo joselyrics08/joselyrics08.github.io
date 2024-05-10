@@ -1,0 +1,12 @@
+.btn {
+    cursor: pointer;
+    @apply font-bold py-3 px-5 text-lg;
+}
+
+.btn-earnify {
+    @apply bg-cyan-500 text-white;
+}
+
+.btn-earnify:hover {
+    @apply bg-cyan-600;
+}
